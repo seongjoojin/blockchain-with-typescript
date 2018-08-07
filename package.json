@@ -1,0 +1,9 @@
+{
+  "name": "blockchain-with-typescript",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making a Blockchain with it",
+  "main": "index.js",
+  "repository": "https://seongjoojin@github.com/seongjoojin/blockchain-with-typescript.git",
+  "author": "jinseongjoo <qpyou1234@naver.com>",
+  "license": "MIT"
+}
