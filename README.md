@@ -10,3 +10,7 @@ Typescript로 블록체인 만들기
 ## typescript setting
 
 yarn add typescript
+
+## 추가 설치
+
+yarn add tsc-watch --dev

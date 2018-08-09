@@ -10,7 +10,9 @@
     "typescript": "^3.0.1"
   },
   "scripts": {
-    "start":"node index.js",
-    "prestart":"tsc"
+    "start": "tsc-watch --onSuccess \" node dist/index.js \" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.0.26"
   }
 }
