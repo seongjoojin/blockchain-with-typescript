@@ -18,3 +18,7 @@ yarn add tsc-watch --dev
 ## 블록체인
 
 블록의 연결
+
+## cryto-js add
+
+yarn add crypto-js
