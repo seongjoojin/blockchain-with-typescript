@@ -14,3 +14,7 @@ yarn add typescript
 ## 추가 설치
 
 yarn add tsc-watch --dev
+
+## 블록체인
+
+블록의 연결
