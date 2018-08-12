@@ -55,7 +55,7 @@ const getLatestBlock = (): Block => blockchain[blockchain.length - 1]
 
 const getNewTimeStamp = (): number => Math.round(new Date().getTime() / 1000)
 
-const crateNewBlock = (data: string): Block => {
+const createNewBlock = (data: string): Block => {
   const previousBlock: Block = getLatestBlock()
   const newIndex: number = previousBlock.index + 1
   const newTimestamp: number = getNewTimeStamp()
@@ -72,6 +72,8 @@ const crateNewBlock = (data: string): Block => {
     data,
     newTimestamp
   )
+
+  addBlock(newBlock)
 
   return newBlock
 }
@@ -103,5 +105,11 @@ const addBlock = (candidateBlock: Block): void => {
     blockchain.push(candidateBlock)
   }
 }
+
+createNewBlock("second block")
+createNewBlock("third block")
+createNewBlock("fourth block")
+
+console.log(blockchain)
 
 export {}
