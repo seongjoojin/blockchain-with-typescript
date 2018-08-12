@@ -1,6 +1,8 @@
 # blockchain-with-typescript
 Typescript로 블록체인 만들기
 
+https://academy.nomadcoders.co/p/build-a-blockchain-with-typescript
+
 ## 왜 typescript를 사용하는가?
 
 자바스크립트가 가지고 있지 않은 규칙들을 갖고 있음.
